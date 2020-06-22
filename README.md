@@ -23,6 +23,7 @@ This Integration allows you to create xMatters Events from Graylog Events.
 2. Navigate to the Workflows tab of your xMatters instance
 3. Click Import, and select the zip file you just downloaded
 4. Copy the URL from the **Inbound from Graylog** step. You'll need this when setting up the Graylog event.
+5. Update the recipients of the **Create Event - Error in Log** step.
 
 
 ## Graylog Setup
@@ -42,12 +43,13 @@ To connect xMatters to an event in Graylog,
 </details>
 
 5. Put the URL that you copied from the xMatters **Inbound from Graylog** step and place it in the **URL** field.
-6. Finish creating the event.
+6. Make sure the URL is added to the whitelist.
+7. Finish creating the event.
 
 # Example
 Here is what the included flow looks like.
 
 <kbd>
-<img src="media/ExampleFlow.png">
+<img src="media/ExampleFlow.png" height="500px">
 </kbd>
 
