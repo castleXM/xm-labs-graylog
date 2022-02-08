@@ -11,6 +11,10 @@ This Integration allows you to create xMatters Events from Graylog Events.
 
 ---------
 
+An updated version of this integration is available. You can install the new version right from the Workflow Templates directory within your xMatters instance. [Learn more](http://help.xmatters.com/integrations/#cshid=Graylog).
+
+---------
+
 # Files
 
 * [Graylog.zip](Graylog.zip) - Workflow zip file with the step and example flow
